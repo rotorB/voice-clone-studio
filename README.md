@@ -1,5 +1,7 @@
 # Voice Clone Studio
 
+![Voice Studio graph workflow](docs/images/voice-studio-overview.png)
+
 Voice Clone Studio is a local Apple Silicon application for voice design, zero-shot voice cloning, speech recognition, and low-latency voice transformation with Qwen3 models and MLX.
 
 The project includes two interfaces:
