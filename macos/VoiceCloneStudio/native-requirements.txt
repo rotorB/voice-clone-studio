@@ -1,0 +1,5 @@
+mlx-audio==0.5.3
+fastapi==0.141.1
+uvicorn==0.52.4
+websockets==15.0.1
+soundfile==0.14.0

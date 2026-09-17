@@ -1,0 +1,56 @@
+.DS_Store
+.venv/
+__pycache__/
+*.pyc
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+*.mobileprovision
+*.provisionprofile
+
+# Voice material and generated media
+*.wav
+*.wave
+*.mp3
+*.m4a
+*.aac
+*.flac
+*.ogg
+*.opus
+*.caf
+*.aiff
+*.aif
+output/*
+!output/.gitkeep
+**/voice-library/
+**/voice_library/
+**/recordings/
+**/references/
+**/presets/
+**/.reference.json
+**/*preset*.json
+**/*voice-profile*.json
+
+# Model weights and local caches
+*.safetensors
+*.gguf
+*.ckpt
+*.pt
+*.pth
+*.onnx
+.cache/
+
+# Native build products and embedded runtimes
+macos/VoiceCloneStudio/.build/
+macos/VoiceCloneStudio/dist/
+macos/VoiceCloneStudio/.backend-runtime/
+
+# Runtime state
+.voice-clone-web.lock
+*.log
